@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Assessment - Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOGIN SCREEN -->
+    <div id="login-container" class="view">
+        <h2>Welcome Back</h2>
+        <form id="login-form">
+            <input type="email" id="email" placeholder="Email (admin@test.com)" required>
+            <input type="password" id="password" placeholder="Password (password123)" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error-message" class="hidden">Invalid credentials. Try again.</p>
+    </div>
+
+    <!-- PRIVATE DASHBOARD -->
+    <div id="dashboard-container" class="view hidden">
+        <header>
+            <h2>My Task Dashboard</h2>
+            <button id="logout-btn">Logout</button>
+        </header>
+        
+        <main>
+            <!-- Task Input Form -->
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Enter a new task..." required>
+                <button type="submit">Add Task</button>
+            </form>
+
+            <!-- Task List Display -->
+            <ul id="task-list"></ul>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
