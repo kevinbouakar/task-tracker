@@ -37,7 +37,7 @@ taskForm.addEventListener("submit", function(event){
     //! Get task value, and append a button next to it.
     let addedTask = document.querySelector("#task-input").value;
     const li = document.createElement("li");
-    li.innerHTML = addedTask + "<button class='delete-task'>Delete</button>";
+    li.innerHTML = addedTask + " <button class='delete-task'>Delete</button>";
 
     //! Appened the task to the task list.
     document.querySelector("#task-list").appendChild(li);
