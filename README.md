@@ -1,6 +1,6 @@
 # 1. About
 
-shareQ Task Tracker Application requested from my internship. This application allows users to log into their account and manage their task list properly. 
+shareQ Task Tracker Application requested from my internship. This application allows users to log into their account and manage their task list properly. User can add tasks and remove them whenever. Logging out doesn't affect tasks removal.
 
 # 2. File Structure
 
@@ -13,13 +13,11 @@ task-tracker/
 ```
 
 # 3. Color Palette
-{
-    "Deep Crimson":"#931621",
-    "Dark Slate Grey":"#28464b",
-    "Stormy Teal":"#326771",
-    "Pacific Cyan":"#2c8c99",
-    "Turquoise":"#42d9c8"
-}
+- Deep Crimson: #931621
+- Dark Slate Grey: #28464b
+- Stormy Teal: #326771
+- Pacific Cyan: #2c8c99
+- Turquoise: #42d9c8"
 
 # 4. How To?
 ## Online Demo:
